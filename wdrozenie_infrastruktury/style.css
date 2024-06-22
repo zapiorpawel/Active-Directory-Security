@@ -1,0 +1,303 @@
+html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0 !important;
+	padding: 0;
+	height: 100%;
+}
+
+h1 
+{
+	text-align: right;
+	margin-right: 10%;
+	font-variant: small-caps;
+	font-family: 'Righteous', cursive;
+	font-size: 100px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+logo
+{
+	max-height: 400px;
+}
+
+header a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h2
+{
+	font-variant: small-caps;
+	font-family: 'Staatliches', cursive;
+	font-size: 40px;
+}
+
+#container
+{
+	min-height: 100%;
+	position: relative;
+}
+
+#nav a 
+{
+color: white;
+text-decoration: none;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.option
+{
+text-decoration: none;
+font-family: 'Thasadith', sans-serif;
+font-size: 20px;
+color: white;	
+}
+
+
+
+
+#links
+{
+	text-align: center;
+}
+
+
+#nav li
+ {
+	 display: inline;
+	 
+ }
+ 
+ .ikon-option
+ {
+	 padding-top: 5px;
+	 font-size: 40px;
+ }
+ 
+ #socialmedia
+ {
+	background-color:  #333333;
+	padding: 2px 0;
+	padding-left: 10%;
+	padding-right: 5%;
+ }
+
+ .icon-facebook-squared:hover
+ {
+	 color: #4668b3;
+ }
+ 
+.icon-instagram-filled:hover
+ {
+	 color: #d93175;
+ }
+ 
+ .icon-gplus-squared:hover
+ {
+	 color: #d95333;
+ }
+ 
+ .soc-option
+ {
+padding-top: 5px;
+font-size: 20px;
+color: white;	
+margin-top: 5px;
+text-align: right;
+
+ }
+ 
+ li:hover
+ {
+	text-decoration: underline;
+ }
+ 
+#nav ul
+ {
+ list-style-type: none;
+ color: white;
+ text-align: center;
+ }
+
+ 
+ #logo
+ {
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 background-image: url(background-logo.jpg);
+ }
+ 
+ #nav
+ {
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 background-color: #333333;
+	 color: #ffffff;
+ }
+ 
+ .content
+ {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0%;
+	padding-bottom: 50px;
+ }
+ 
+#footer
+{
+	width: 100%;
+	background-color: #333333;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+	color: white;
+}
+ 
+ .text
+ {
+	font-family: 'Thasadith', sans-serif;
+ }
+ 
+ 
+ .powrot
+ {
+	margin-top: 20px;
+	margin-bottom: 20px;
+ }
+ 
+  .powrot a
+ {
+	 
+	 color: #333333;
+	 font-family: Arial;
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+ }
+
+  .powrot a:hover
+ {
+	 text-decoration: underline;
+ }
+ 
+ .logoGF
+ {
+	 width: 200px;
+	 margin: 10px;
+ }
+ 
+ .ja
+ {
+	 width: 200px;
+	 margin-left: 10px;
+	 margin-bottom: 10px;
+ }
+ 
+ 
+
+
+	
+	#facebook
+	{
+		float: right;
+		margin: 10px;
+		padding-left: 30px;
+		border-left-style: dotted; 
+	}
+	
+	
+	
+ #contact ul
+ {
+	 list-style-type: none;
+ }
+ 
+ #links
+ {
+	 margin: 10px 50px;
+	 
+ }
+ 
+
+ 
+ .sp
+	 {
+		width: 230px;
+		padding: 5px;	
+		filter: grayscale(10%);
+		transition: 1s;
+	 }
+	 
+	  .sp:hover
+	 {
+		transform: scale(1.1);
+		filter: grayscale(0%);
+	 }
+ 
+ @media all and (max-width: 1000px)
+ {
+    #nav li
+	{
+	 display: block;
+	}
+
+	.option
+	{
+		font-size: 20px;
+	}
+	
+	h1
+	{
+		text-align: center;
+	}
+	
+	body
+	{
+	width: 100% !important;
+	}
+	
+	#facebook
+	{
+		float: none;
+		border-left-style: none;
+	}
+ }
+ 
+  @media all and (max-width: 800px) 
+  {
+	  #nav li
+	  {
+		display: block;
+	  }
+	  
+	  h1
+	  {
+		  text-align: center;
+		  font-size: 50px;
+	  }
+	  
+	   
+ #socialmedia
+ {
+	padding-left: 2%;
+ }
+ 
+ #facebook
+ {
+	 display: none;
+ }
+ 
+  #contact
+ {
+	font-size: 15px;
+	}
+  }
